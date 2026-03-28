@@ -18,7 +18,7 @@ function parseResult(raw) {
 }
 
 // usage
-const raw = JSON.parse(fs.readFileSync('results/result-Zion_Riverside_Food_Centre.json', 'utf-8'));
+const raw = JSON.parse(fs.readFileSync('results/result-Ayer_Rajah_Food_Centre.json', 'utf-8'));
 const stalls = parseResult(raw);
 console.log(`${stalls.length} stalls found`);
 fs.writeFileSync('all-stalls.json', JSON.stringify(stalls, null, 2));

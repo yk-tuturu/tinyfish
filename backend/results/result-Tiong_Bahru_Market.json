@@ -1,3 +1,98 @@
-{
-  "result": "```json\n[\n  {\n    \"stall_name\": \"Hong Heng Fried Sotong Prawn Mee (Tiong Bahru Market)\",\n    \"cuisine_type\": \"Hokkien Mee / Hawker Fare\",\n    \"review_count\": \"36 reviews\",\n    \"url\": \"https://www.burpple.com/hong-heng-fried-sotong-prawn-mee\",\n    \"google_maps_details\": {\n      \"lat\": 1.285229974,\n      \"lng\": 103.832486163,\n      \"link\": \"https://www.google.com/maps/search/?api=1&query=1.285229974,103.832486163\"\n    },\n    \"reviews\": [\n      \"Many people would know about this stall because of their recognition on Michelin Guide’s Bib Gourmand for a few years. The stall opens around 10:30am and I would already see a queue in front over the weekend. The hawker cooks it batches by batches, so the queue is actually moved pretty fast once the he finished cooking it. His version of fried Hokkien mee here is definitely more on the wet version, which some may find it lack of wok hey taste. But I like it as he cooked the noodle with seafood broth. You must squeeze the lime and mix all of them with chili for a better flavour.\",\n      \"Prawn Mee. Feature the medium size, the Hokkien mee is wet version. Cooked in seafood broth, quite tasty, the ingredients fresh, wish have more wok hei. 💰$5 for medium. 📍 Hong Heng Fried Sotong Prawn Mee. Tiong Bahru Market , #02-01. Singapore 168898,\",\n      \"Serving since the 1980s and having attained the Michelin Bib Gourmand award over the last 7 consecutive years, 3rd-generation owner Manfred Lim carries on much like before. . Their rendition tends towards balanced, leaning more to 'wet'. A robust prawn and pork stock infuses the large portion of noodles, gooey soft chewy (almost al-dente) with grainy savoury salty flavour, but has less wok hei / breath of the wok. . Garnished with soft chicken egg, crisp bean sprouts, springy squid, bouncy fish cake, and crunchy deshelled prawns, combining for a vegetal eggy sweet savoury salty flavour. Finished with lime juice for a zesty sour tangy touch.\"\n    ],\n    \"dishes\": [\n      \"Fried Hokkien Mee\",\n      \"Fried Sotong Prawn Mee\",\n      \"Hokkien Mee (SGD $5)\"\n    ],\n    \"contact_and_links\": {\n      \"address\": \"30 Seng Poh Road #02-01 Tiong Bahru Market Singapore 168898\",\n      \"email\": \"biz@burpple.com\",\n      \"other_links\": [\n        \"https://www.facebook.com/burpple\",\n        \"https://www.instagram.com/burpple\"\n      ]\n    }\n  },\n  {\n    \"stall_name\": \"Fried Kway Teow • Fried Oyster (Tiong Bahru Market)\",\n    \"cuisine_type\": \"Hawker Fare / Char Kway Teow\",\n    \"review_count\": \"8 reviews\",\n    \"url\": \"https://www.burpple.com/fried-kway-teow-fried-oyster-tiong-bahru-market\",\n    \"google_maps_details\": {\n      \"lat\": 1.2848194,\n      \"lng\": 103.8324664,\n      \"link\": \"https://www.google.com/maps/search/?api=1&query=1.2848194,103.8324664\"\n    },\n    \"reviews\": [\n      \"Aw, Shucks. This being on the ‘Cheerless Chow’ list might be harsh, but it wasn’t good enough to eat...\",\n      \"Orh Jian ($4) Read about this stall in Burpple and decided to try it because I’m all about unhealthy...\",\n      \"For Wok Hei-Laden Char Kway Teow A hidden gem in Tiong Bahru, this stall is your best bet if you li...\"\n    ],\n    \"dishes\": [\n      \"Char Kway Teow\",\n      \"Orh Jian\"\n    ],\n    \"contact_and_links\": {\n      \"address\": \"30 Seng Poh Road #02-11 Tiong Bahru Market Singapore 168898\",\n      \"email\": \"biz@burpple.com\"\n    }\n  },\n  {\n    \"stall_name\": \"Tiong Bahru Bak Chor Mee (Tiong Bahru Market)\",\n    \"cuisine_type\": \"Hawker / Bak Chor Mee\",\n    \"review_count\": \"11 reviews\",\n    \"url\": \"https://www.burpple.com/tiong-bahru-bak-chor-me\",\n    \"google_maps_details\": {\n      \"lat\": 1.2848964,\n      \"lng\": 103.8323896,\n      \"link\": \"https://www.google.com/maps/search/?api=1&query=1.2848964,103.8323896\"\n    },\n    \"reviews\": [\n      \"Teochew meatball soup 4.5nett. I don't think this was as good as I rmbed...\",\n      \"6nett portion. Still the textbook version it was. It's blasphemous there's no queue here...\",\n      \"Bcm 6nett portion. Teochew meatball was incredibly good, probably homemade...\"\n    ],\n    \"dishes\": [\n      \"Bak Chor Mee\",\n      \"Teochew meatball soup\"\n    ],\n    \"contact_and_links\": {\n      \"address\": \"30 Seng Poh Road #02-01 Tiong Bahru Market Singapore 168898\",\n      \"email\": \"biz@burpple.com\"\n    }\n  },\n  {\n    \"stall_name\": \"Tiong Bahru Mian Jian Kueh (Tiong Bahru Market)\",\n    \"cuisine_type\": \"Hawker / Pancakes\",\n    \"review_count\": \"0 reviews\",\n    \"url\": \"https://www.burpple.com/tiong-bahru-mian-jiang-kueh-tiong-bahru-market\",\n    \"google_maps_details\": {\n      \"lat\": 1.2848923853,\n      \"lng\": 103.8323836006,\n      \"link\": \"https://www.google.com/maps/search/?api=1&query=1.2848923853,103.8323836006\"\n    },\n    \"reviews\": [],\n    \"dishes\": [\n      \"Mian Jian Kueh\"\n    ],\n    \"contact_and_links\": {\n      \"address\": \"30 Seng Poh Road #02-34 Tiong Bahru Market Singapore 168898\",\n      \"email\": \"biz@burpple.com\"\n    }\n  }\n]\n\n```"
-}
+[
+  {
+    "stall_name": "Hong Heng Fried Sotong Prawn Mee (Tiong Bahru Market)",
+    "cuisine_type": "Hokkien Mee / Hawker Fare",
+    "review_count": "36 reviews",
+    "url": "https://www.burpple.com/hong-heng-fried-sotong-prawn-mee",
+    "google_maps_details": {
+      "lat": 1.285229974,
+      "lng": 103.832486163,
+      "link": "https://www.google.com/maps/search/?api=1&query=1.285229974,103.832486163"
+    },
+    "reviews": [
+      "Many people would know about this stall because of their recognition on Michelin Guide’s Bib Gourmand for a few years. The stall opens around 10:30am and I would already see a queue in front over the weekend. The hawker cooks it batches by batches, so the queue is actually moved pretty fast once the he finished cooking it. His version of fried Hokkien mee here is definitely more on the wet version, which some may find it lack of wok hey taste. But I like it as he cooked the noodle with seafood broth. You must squeeze the lime and mix all of them with chili for a better flavour.",
+      "Prawn Mee. Feature the medium size, the Hokkien mee is wet version. Cooked in seafood broth, quite tasty, the ingredients fresh, wish have more wok hei. 💰$5 for medium. 📍 Hong Heng Fried Sotong Prawn Mee. Tiong Bahru Market , #02-01. Singapore 168898,",
+      "Serving since the 1980s and having attained the Michelin Bib Gourmand award over the last 7 consecutive years, 3rd-generation owner Manfred Lim carries on much like before. . Their rendition tends towards balanced, leaning more to 'wet'. A robust prawn and pork stock infuses the large portion of noodles, gooey soft chewy (almost al-dente) with grainy savoury salty flavour, but has less wok hei / breath of the wok. . Garnished with soft chicken egg, crisp bean sprouts, springy squid, bouncy fish cake, and crunchy deshelled prawns, combining for a vegetal eggy sweet savoury salty flavour. Finished with lime juice for a zesty sour tangy touch."
+    ],
+    "dishes": [
+      "Fried Hokkien Mee",
+      "Fried Sotong Prawn Mee",
+      "Hokkien Mee (SGD $5)"
+    ],
+    "contact_and_links": {
+      "address": "30 Seng Poh Road #02-01 Tiong Bahru Market Singapore 168898",
+      "email": "biz@burpple.com",
+      "other_links": [
+        "https://www.facebook.com/burpple",
+        "https://www.instagram.com/burpple"
+      ]
+    }
+  },
+  {
+    "stall_name": "Fried Kway Teow • Fried Oyster (Tiong Bahru Market)",
+    "cuisine_type": "Hawker Fare / Char Kway Teow",
+    "review_count": "8 reviews",
+    "url": "https://www.burpple.com/fried-kway-teow-fried-oyster-tiong-bahru-market",
+    "google_maps_details": {
+      "lat": 1.2848194,
+      "lng": 103.8324664,
+      "link": "https://www.google.com/maps/search/?api=1&query=1.2848194,103.8324664"
+    },
+    "reviews": [
+      "Aw, Shucks. This being on the ‘Cheerless Chow’ list might be harsh, but it wasn’t good enough to eat...",
+      "Orh Jian ($4) Read about this stall in Burpple and decided to try it because I’m all about unhealthy...",
+      "For Wok Hei-Laden Char Kway Teow A hidden gem in Tiong Bahru, this stall is your best bet if you li..."
+    ],
+    "dishes": [
+      "Char Kway Teow",
+      "Orh Jian"
+    ],
+    "contact_and_links": {
+      "address": "30 Seng Poh Road #02-11 Tiong Bahru Market Singapore 168898",
+      "email": "biz@burpple.com"
+    }
+  },
+  {
+    "stall_name": "Tiong Bahru Bak Chor Mee (Tiong Bahru Market)",
+    "cuisine_type": "Hawker / Bak Chor Mee",
+    "review_count": "11 reviews",
+    "url": "https://www.burpple.com/tiong-bahru-bak-chor-me",
+    "google_maps_details": {
+      "lat": 1.2848964,
+      "lng": 103.8323896,
+      "link": "https://www.google.com/maps/search/?api=1&query=1.2848964,103.8323896"
+    },
+    "reviews": [
+      "Teochew meatball soup 4.5nett. I don't think this was as good as I rmbed...",
+      "6nett portion. Still the textbook version it was. It's blasphemous there's no queue here...",
+      "Bcm 6nett portion. Teochew meatball was incredibly good, probably homemade..."
+    ],
+    "dishes": [
+      "Bak Chor Mee",
+      "Teochew meatball soup"
+    ],
+    "contact_and_links": {
+      "address": "30 Seng Poh Road #02-01 Tiong Bahru Market Singapore 168898",
+      "email": "biz@burpple.com"
+    }
+  },
+  {
+    "stall_name": "Tiong Bahru Mian Jian Kueh (Tiong Bahru Market)",
+    "cuisine_type": "Hawker / Pancakes",
+    "review_count": "0 reviews",
+    "url": "https://www.burpple.com/tiong-bahru-mian-jiang-kueh-tiong-bahru-market",
+    "google_maps_details": {
+      "lat": 1.2848923853,
+      "lng": 103.8323836006,
+      "link": "https://www.google.com/maps/search/?api=1&query=1.2848923853,103.8323836006"
+    },
+    "reviews": [],
+    "dishes": [
+      "Mian Jian Kueh"
+    ],
+    "contact_and_links": {
+      "address": "30 Seng Poh Road #02-34 Tiong Bahru Market Singapore 168898",
+      "email": "biz@burpple.com"
+    }
+  }
+]

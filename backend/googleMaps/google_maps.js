@@ -40,8 +40,8 @@ function extractStalls(parsed) {
 
 async function enrichStallWithGoogle(stall) {
   const name = stall.stall_name;
-  const lat = stall.lat ?? stall.location?.lat ?? stall.google_maps?.lat ?? stall.google_maps_lat_lng?.lat;
-  const lng = stall.lng ?? stall.location?.lng ?? stall.google_maps?.lng ?? stall.google_maps_lat_lng?.lng;
+  const lat = stall.lat ?? stall.location?.lat ?? stall.google_maps?.lat ?? stall.google_maps_lat_lng?.lat ?? stall.google_maps_coords?.lat ?? stall.google_maps_details?.lat ?? stall.latitude;
+  const lng = stall.lng ?? stall.location?.lng ?? stall.google_maps?.lng ?? stall.google_maps_lat_lng?.lng ?? stall.google_maps_coords?.lng ?? stall.google_maps_details?.lng ?? stall.longitude;
 
   // Step 1: Text search by name + lat/lng bias
   const query = encodeURIComponent(`${name} Singapore`);
@@ -122,6 +122,6 @@ async function enrichAllStalls(inputFile, outputFile) {
 }
 
 await enrichAllStalls(
-  'results/result-Redhill_Food_Centre.json',
-  'results-enriched/result-Redhill_Food_Centre-enriched.json'
+  'results/result-Zion_Riverside_Food_Centre.json',
+  'results-enriched/result-Zion_Riverside_Food_Centre-enriched.json'
 );
