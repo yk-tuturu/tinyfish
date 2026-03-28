@@ -1,0 +1,343 @@
+[
+  {
+    "stall_name": "Yu Mei Mei Shi (Havelock Road Cooked Food Centre)",
+    "cuisine_type": "Soup",
+    "review_count": 9,
+    "url": "https://burpple.com/yu-mei-mei-shi",
+    "lat": 1.2887154,
+    "lng": 103.8298538,
+    "reviews": [
+      "Balmy morning with a spot of rain. This is the perfect antidote. Happy Holy Saturday all.",
+      "Fish soup for lunch today with lots of vegetables",
+      "The nasi lemak was a side we shared! Back to my mains, I love this fish soup here. Soup is full of umami and msg free and their fried fish is one of the best I’ve had. Had it with Yee Mee today and with extra greens, chye sim and bittergourd. So yummy. Fish soup cravings satisfied.",
+      "No msg and super fresh fish, my go to for comfort food",
+      "A few of us trooped over today to check out this fish soup stall in Havelock Food Centre that's been raved about for a while now by Burppler @blueskiescottonclouds. 'Yu Mei Mei Shi' (unit #01-15) has been open for 22 years and is actually rather well-known, especially among many taxi drivers. Karen, the stall owners' daughter is an ex-colleague and friend of Angeline's, and she'd quit her banking job to help her parents out. Being greedy, I couldn't stop myself from ordering a customised bowl of chunkily-cut red garoupa, fish roe, 'yubao' (creamy fish sac), fried fish and bittergourd. My bill came to $13.50 with a bowl of rice. Not cheap for hawker fare but I think it's worth it because of the quality of the ingredients. In spite of a light, clear appearance, the soup was impressive in depth and sweetness too. A must-have dip is the sambal belachan. Made by the stall owners themselves, it is spicy and extra appetising from the inclusion of lime juice. #burpplemajulahmakan",
+      "Back at my fav with extra fried fish and bittergourd."
+    ],
+    "dishes": [
+      "Fried fish soup",
+      "Mee sua",
+      "Nasi lemak",
+      "Fish soup",
+      "Yee Mee",
+      "Red garoupa",
+      "Fish roe",
+      "Yubao",
+      "Sambal belachan"
+    ],
+    "other_info": {
+      "contact": "No landline",
+      "links": [
+        "https://burpple.com/about-us",
+        "https://burpple.com/beyond",
+        "https://www.burpple.com/burpple-influencers",
+        "https://bites.burpple.com"
+      ]
+    }
+  },
+  {
+    "stall_name": "Western Hut (Havelock Road Cooked Food Centre)",
+    "cuisine_type": "Western",
+    "review_count": 1,
+    "url": "https://burpple.com/western-hut",
+    "lat": 1.2877281,
+    "lng": 103.829286,
+    "reviews": [
+      "The fish is not so salty and it is crispy. The fries are fat, the kind that i like."
+    ],
+    "dishes": [
+      "Fish And Chips",
+      "Fries"
+    ],
+    "other_info": {
+      "contact": "Facebook: https://www.facebook.com/westernhut.hlr/"
+    }
+  },
+  {
+    "stall_name": "Guang Fa Laksa (Havelock Road)",
+    "cuisine_type": "Noodle, Laksa",
+    "review_count": 13,
+    "url": "https://burpple.com/guang-fa-laksa",
+    "lat": 1.2879949,
+    "lng": 103.8296031,
+    "reviews": [
+      "Small doesn't have egg... abit of heat but lacks body.",
+      "Flavourful laksa broth... Havelock Road FC always appears kinda weird...",
+      "Traditional Laksa With Cockles... Laksa.",
+      "Very Generous Serving Of Fat Hums!",
+      "Laksa With Cockles... tried it a year or two back...",
+      "Rich and Lemak Laksa... operated for close to fifteen years in Ghim Moh..."
+    ],
+    "dishes": [
+      "Laksa",
+      "Cockles",
+      "Egg",
+      "Chili"
+    ],
+    "other_info": {
+      "contact": "+65 93886976",
+      "links": [
+        "https://www.facebook.com/guangfalaksa/"
+      ]
+    }
+  },
+  {
+    "stall_name": "Siak Ann Cooked Food (Havelock Road Cooked Food Centre)",
+    "cuisine_type": "Curry Rice",
+    "review_count": 1,
+    "url": "https://burpple.com/siak-an-coked-fod",
+    "lat": 1.2879949,
+    "lng": 103.8296031,
+    "reviews": [
+      "Although the fact that this stall only opens at 3am would turn most people away... Siak Ann Curry Rice"
+    ],
+    "dishes": [
+      "Curry Rice"
+    ],
+    "other_info": {
+      "contact": "No phone"
+    }
+  },
+  {
+    "stall_name": "Siam Square Mookata (Havelock Road Cooked Food Centre)",
+    "cuisine_type": "Mookata, Thai",
+    "review_count": 14,
+    "url": "https://burpple.com/siam-square-mokata",
+    "lat": 1.2887154,
+    "lng": 103.8298538,
+    "reviews": [
+      "Best Value-for-money Mookata... Siam Square Mookata is probably one of the few places...",
+      "Authentic mookata... many outlets...",
+      "Late night cravings..."
+    ],
+    "dishes": [
+      "Mookata",
+      "Thai Fishcake",
+      "Pork Belly",
+      "Shabu Pork"
+    ],
+    "other_info": {
+      "contact": "+65 81196664",
+      "links": [
+        "http://www.siamsquaremookata.com.sg/"
+      ]
+    }
+  },
+  {
+    "stall_name": "Covent Garden Kway Chap (Havelock Road Cooked Food Centre)",
+    "cuisine_type": "Kway Chap",
+    "review_count": 3,
+    "url": "https://burpple.com/covent-garden-kway-chap",
+    "lat": 1.2886221,
+    "lng": 103.8291887,
+    "reviews": [
+      "Kway Chap. I actually wanted to have this long ago but unfortunately the grandma that manages the stall has passed away...",
+      "Kway Chap. This is really old school kway chap as all the ingredients are kept warm in a cauldron...",
+      "My 2nd time ordering kway chap, and this was much easier given the clear breakdown 😆 Feels and tast..."
+    ],
+    "dishes": [
+      "Kway Chap"
+    ],
+    "other_info": {
+      "contact": "No landline"
+    }
+  },
+  {
+    "stall_name": "Guang Li Wanton Noodle (Havelock Road Cooked Food Centre)",
+    "cuisine_type": "Noodle, Wanton Mee",
+    "review_count": 5,
+    "url": "https://burpple.com/guang-li-wanton-nodle-1964",
+    "lat": 1.2888432,
+    "lng": 103.8288309,
+    "reviews": [
+      "Since 1964... old school wanton Mee, nothing spectacular, but it hits the spot...",
+      "Once in a while when we need some comfort food. Old school wanton Mee...",
+      "Queued up 15-20 min in the line... opened only few...",
+      "Wanton Mee"
+    ],
+    "dishes": [
+      "Wanton Mee",
+      "Old school wanton Mee"
+    ],
+    "other_info": {
+      "contact": "Facebook: https://www.facebook.com/guangliwantonnoodles"
+    }
+  },
+  {
+    "stall_name": "Hong Kong Jin Tian (Havelock Road Cooked Food Centre)",
+    "cuisine_type": "Roast Meat, Chinese",
+    "review_count": 26,
+    "url": "https://burpple.com/hong-kong-jin-tian-roast-meat",
+    "lat": 1.2877304,
+    "lng": 103.8292827,
+    "reviews": [
+      "Was introduced to this hawker stall by my colleague whom swears by the Hong Kong roast...",
+      "甘榜白切鸡... 鸡肉鲜美，配上独特的姜葱油...",
+      "Duck Leg 8nett... Not v crispy, nor super tender, but the flavour is real...",
+      "Roast Meat & Char Siew... I told the Cantonese owner they were closed three times...",
+      "Lost & Found Popular Roast Meat Stall in Tiong Bahru... Roasted Duck..."
+    ],
+    "dishes": [
+      "Roast Duck",
+      "Duck Leg",
+      "Roast Meat",
+      "Char Siew",
+      "Kampung White Chicken"
+    ],
+    "other_info": {
+      "contact": "+65 93831318"
+    }
+  },
+  {
+    "stall_name": "Ivan's Porridge (Havelock Road Cooked Food Centre)",
+    "cuisine_type": "Cantonese Porridge",
+    "review_count": 18,
+    "url": "https://burpple.com/ivans-porridge",
+    "lat": 1.2888432,
+    "lng": 103.8288309,
+    "reviews": [
+      "Pork Innards Congee... The minced meat balls are great...",
+      "Fish Belly And Pork Porridge... This stall has a variety of Cantonese porridge...",
+      "Porridge Or Fried Bee Hoon Your Choice...",
+      "Boneless Fish Belly Porridge..."
+    ],
+    "dishes": [
+      "Pork Innards Congee",
+      "Fish Belly Porridge",
+      "Pork Porridge",
+      "Fried Bee Hoon"
+    ],
+    "other_info": {
+      "contact": "+65 98568882"
+    }
+  },
+  {
+    "stall_name": "IAAI Malay Food (Havelock Road Cooked Food Centre)",
+    "cuisine_type": "Malay",
+    "review_count": 1,
+    "url": "https://burpple.com/iaai-malay-food",
+    "lat": 1.2877391,
+    "lng": 103.8292837,
+    "reviews": [
+      "My mee siam is topped with so much bean sprouts, I could not see what lies underneath except for the..."
+    ],
+    "dishes": [
+      "Mee Siam"
+    ],
+    "other_info": {
+      "contact": "No landline"
+    }
+  },
+  {
+    "stall_name": "Covent Garden Prawn Noodle (Havelock Road Cooked Food Centre)",
+    "cuisine_type": "Prawn Noodle",
+    "review_count": 10,
+    "url": "https://burpple.com/covent-garden-prawn-noodle",
+    "lat": 1.2887154,
+    "lng": 103.8298538,
+    "reviews": [
+      "The Dry Version Rocks! It doesn’t get more old-school than this...",
+      "Prawn Noodles-$4 One of the perks in staying in a mature estate in Singapore...",
+      "Prawns Only Mee With Added Pig's Tail...",
+      "Prawn Mee With Intestines...",
+      "Pig's Tail Soup...",
+      "Prawn Noodles With Intestines & Pig Skins..."
+    ],
+    "dishes": [
+      "Prawn Noodle",
+      "Pig's Tail",
+      "Intestines",
+      "Pig Skins",
+      "Pig's Tail Soup"
+    ],
+    "other_info": {
+      "contact": "No landline"
+    }
+  },
+  {
+    "stall_name": "Khin Kee Handmade Fishball Kway Teow ᛫ Sliced Fish Bee Hoon (Havelock Road Cooked Food Centre)",
+    "cuisine_type": "Fishball Noodle",
+    "review_count": 8,
+    "url": "https://burpple.com/fishball-khin",
+    "lat": 1.2886221,
+    "lng": 103.8291887,
+    "reviews": [
+      "面薄的调味料刚刚好，尤其是醋的分量，不多也不少...",
+      "Fishball Kway Teow Soup... breakfast. Food is good tho not earthshaking...",
+      "Handmade Fishballs Mee... all handmade by the owners...",
+      "Fishball Mee Pok... originated from Toa Payoh..."
+    ],
+    "dishes": [
+      "Fishball Kway Teow Soup",
+      "Fishball Mee Pok",
+      "Fish Cake",
+      "Fish dumplings"
+    ],
+    "other_info": {
+      "contact": "+65 98232921",
+      "links": [
+        "https://www.facebook.com/FishballKhin"
+      ]
+    }
+  },
+  {
+    "stall_name": "Eng Huat Fishball Mee (Havelock Road Cooked Food Centre)",
+    "cuisine_type": "Fishball Noodle",
+    "review_count": 1,
+    "url": "https://burpple.com/eng-huat-fishball-noodles",
+    "lat": 1.2886221,
+    "lng": 103.8291887,
+    "reviews": [
+      "Fishball Noodles-$3.50. Eng Huat is one of the many legendary stalls in the havelock area. They have..."
+    ],
+    "dishes": [
+      "Fishball Noodles"
+    ],
+    "other_info": {
+      "contact": "Facebook: https://www.facebook.com/EngHuatFishballNoodles/"
+    }
+  },
+  {
+    "stall_name": "You Yi Fish Soup (Havelock Road Cooked Food Centre)",
+    "cuisine_type": "Fish Soup",
+    "review_count": 7,
+    "url": "https://burpple.com/UAumcAy0",
+    "lat": 1.2879205,
+    "lng": 103.8297516,
+    "reviews": [
+      "Tom Yam Fried Fish Soup. Walk all the way till the end corner...",
+      "Fried Fish Tom Yum Soup ($4). I have been dreaming of this wonderful dish...",
+      "Generous chunks of crispy yet lightly battered fresh fish...",
+      "For Long Queue Fish Soup. Braved the queue in the warm weather...",
+      "Sliced Fish Soup. Looks like everyone came for their fried fish..."
+    ],
+    "dishes": [
+      "Tom Yam Fried Fish Soup",
+      "Sliced Fish Soup",
+      "Fried Fish"
+    ],
+    "other_info": {
+      "contact": "No landline"
+    }
+  },
+  {
+    "stall_name": "Meng Kee Fried Kway Teow (Havelock Road Cooked Food Centre)",
+    "cuisine_type": "Fried Kway Teow",
+    "review_count": 33,
+    "url": "https://burpple.com/meng-kee-fried-kway-teow",
+    "lat": 1.2886237,
+    "lng": 103.8293071,
+    "reviews": [
+      "Lovely version. Well deserving of their recognition. There's rlly no weakness, good wok hei...",
+      "Meng kee char kway teow has been hyped up recently on social media...",
+      "Char Kway Teow (⭐️⭐️⭐️⭐️⭐️) When cravings hit hard, you gotta satisfy them...",
+      "Better. I didn't mean to eat this again, but it is what it is..."
+    ],
+    "dishes": [
+      "Char Kway Teow"
+    ],
+    "other_info": {
+      "contact": "Facebook: https://www.facebook.com/mengkeeckt"
+    }
+  }
+]

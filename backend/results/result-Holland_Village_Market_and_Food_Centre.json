@@ -1,0 +1,119 @@
+{
+  "stalls": [
+    {
+      "url": "https://burpple.com/ming-fa-fishball-2",
+      "contact": {
+        "phone": null,
+        "address": "1 Lorong Mambong #01-14 Holland Village Market & Food Centre Singapore 277700",
+        "website": "https://www.mingfafishball.com/"
+      },
+      "reviews": [
+        "Minced Meat Noodle | $4 They have increased in price from $3.50 to $4 but still as good hence no complaints.",
+        "Ba Chor Mee [~$3.50] Digging in to my favourite bowl of BCM with lots of vinegar and springy QQ mee...",
+        "Minced Meat Noodle | $3.50 One of my go to for minced meat noodle. Noodle was springy with generous...",
+        "Generous bowl of Bak Chor Mee at $4.00. . Location: Ming Fa FishBall (Holland Village, 1 Lor Mambong...)",
+        "Amazing bowl of Bak Chor Mee with generous portion of noodles, minced meat and condiments. The ...",
+        "Minced meat noodles ($3.50)! 😋😋 . . . . . #meryleats #whati8today #sgfoodunion #8dayseat #burpple..."
+      ],
+      "dish_names": [
+        "Minced Meat Noodle",
+        "Ba Chor Mee",
+        "Fishball Noodle",
+        "Bak Chor Mee"
+      ],
+      "stall_name": "Ming Fa Fishball (Holland Village Market & Food Centre)",
+      "google_maps": {
+        "lat": 1.3111965,
+        "lng": 103.7949565,
+        "link": "https://www.google.com/maps/search/?api=1&query=1.3111965,103.7949565"
+      },
+      "other_links": [
+        "https://burpple.com/ming-fa-fishball-2/opening-hours"
+      ],
+      "cuisine_type": [
+        "Hawker/Kopitiam"
+      ],
+      "review_count": 6
+    },
+    {
+      "url": "https://burpple.com/holland-v-fried-bee-hoon",
+      "contact": {
+        "phone": "+65 93634589",
+        "address": "1 Lorong Mambong #01-11 Holland Village Market & Food Centre Singapore 277700",
+        "website": null
+      },
+      "reviews": [
+        "Simple Breakfast. Bee hoon + noodles + vegetables + luncheon meat + five spice roll (ngoh hiang) = S$3.60.",
+        "econ bee hoon/holland. This corner stall has been seeing long queues and loyal customers over the years. This corner stall always has people lining up to buy their fried bee hoon/mee and choosing a plethora of ingredients to go with it.",
+        "Economic Fried Bee Hoon | $3.00. Fried bee hoon with 3 fried eggs, cabbage and cuttlefish fillet.",
+        "Economic Fried Bee Hoon | $3.80. Stir fry vegetables, 3x fried eggs and 2x sotong fillet on top of white bee hoon.",
+        "Economic Fried Bee Hoon | $4.30. Stir fry vegetables, 2x fried eggs, 1x luncheon meat and 1x siting fillet on top of white bee hoon.",
+        "Economic Fried Bee Hoon | $2. Had fish fillet, stir fry cabbage, egg. Slightly moist bee hoon which I liked."
+      ],
+      "dish_names": [
+        "Fried Bee Hoon",
+        "Noodles",
+        "Vegetables",
+        "Luncheon Meat",
+        "Five Spice Roll (Ngoh Hiang)",
+        "Fried Eggs",
+        "Cabbage",
+        "Cuttlefish Fillet",
+        "Sotong Fillet",
+        "White Bee Hoon",
+        "Fish Fillet"
+      ],
+      "stall_name": "Holland V. Fried Beehoon (Holland Village Market & Food Centre)",
+      "google_maps": {
+        "lat": 1.3111965,
+        "lng": 103.7949565,
+        "link": "https://www.google.com/maps/search/?api=1&query=1.3111965,103.7949565"
+      },
+      "other_links": [],
+      "cuisine_type": [
+        "Hawker/Kopitiam"
+      ],
+      "review_count": 18
+    },
+    {
+      "url": "https://burpple.com/363-holland-village-nasi-lemak",
+      "contact": {
+        "phone": "+65 64649303",
+        "address": "1 Lorong Mambong #01-15 Holland Village Market & Food Centre Singapore 277700",
+        "website": "https://www.facebook.com/363katonglaksa/"
+      },
+      "reviews": [
+        "Nasi Lemak | $5.00. The rice was so fragrant with coconut. It was soft and fluffy and I was able to taste the coconut milk...",
+        "Premium Laksa [~$4.50]. The laksa gravy was slightly diluted but the prawns was on point. Fresh and crunchy...",
+        "Nasi Lemak | $5.80. Chicken thigh set with additional fish fillet. Set comes with chicken thigh, vegetables, fried egg, peanuts and ikan bilis.",
+        "Fantastic and Affordable Nasi Lemak. Famous Nasi Lemak from Holland Village. For an affordable price of $4-$6, it offers high value.",
+        "Good Enough Nasi Lemak. This nasi lemak stall has been here since the beginning of times and the standards have remained pretty consistent.",
+        "363 Holland Village Nasi Lemak. Weekend breakfasts are made of these. Oozy egg atop fluffy, fragrant coconut rice."
+      ],
+      "dish_names": [
+        "Nasi Lemak",
+        "Premium Laksa",
+        "Coconut Rice",
+        "Chicken Thigh",
+        "Fish Fillet",
+        "Prawns",
+        "Fried Egg",
+        "Peanuts",
+        "Ikan Bilis"
+      ],
+      "stall_name": "363 Katong Laksa Holland Village Nasi Lemak (Holland Village Market & Food Centre)",
+      "google_maps": {
+        "lat": 1.3111092,
+        "lng": 103.7950995,
+        "link": "https://www.google.com/maps/search/?api=1&query=1.3111092,103.7950995"
+      },
+      "other_links": [],
+      "cuisine_type": [
+        "Nasi Lemak",
+        "Hawker/Kopitiam",
+        "Malay"
+      ],
+      "review_count": 12
+    }
+  ]
+}

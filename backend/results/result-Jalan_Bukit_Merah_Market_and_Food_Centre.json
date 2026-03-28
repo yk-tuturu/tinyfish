@@ -1,0 +1,124 @@
+[
+  {
+    "stall_name": "Bukit Merah View Carrot Cake (Bukit Merah View Market)",
+    "cuisine_type": "Carrot Cake / Chye Tow Kueh",
+    "review_count": 8,
+    "url": "https://burpple.com/bukit-merah-view-carrot-cake",
+    "location": {
+      "lat": 1.2843276,
+      "lng": 103.8218321
+    },
+    "reviews": [
+      "Black carrot cake? Recent Google reviews for this place were really mixed...",
+      "Carrot Cake / Chye Tow Kueh (SGD $3) @ Bukit Merah View Carrot Cake. Serving for over 50 years...",
+      "Homemade Kueh Not my first time. Carrot cake is just different when not factory made...",
+      "Carrot Cake Still Made With Freshly Milled Rice!",
+      "Bukit Merah View Carrot Cake. Located at Blk 115, Bukit Merah View, Stall 01-37...",
+      "A True (Hidden) Gem Good sized chunky carrot cake fried with fish sauce and chye poh..."
+    ],
+    "dishes": [
+      "Black carrot cake",
+      "Carrot Cake / Chye Tow Kueh",
+      "Homemade Kueh"
+    ],
+    "contact": "+65 96898696",
+    "other_info": {
+      "external_links": [
+        "https://www.misstamchiak.com/bukit-merah-view-carrot-cake/"
+      ]
+    }
+  },
+  {
+    "stall_name": "People’s Park Bukit Merah Central (Bukit Merah Central)",
+    "cuisine_type": "Dessert / Beancurd",
+    "review_count": 1,
+    "url": "https://burpple.com/peoples-park-bukit-merah-central",
+    "location": {
+      "lat": 1.2837537,
+      "lng": 103.8170072
+    },
+    "reviews": [
+      "Homemade beancurd with a splash of soy milk and the auntie added some Bentong ginger syrup. Silky smooth texture..."
+    ],
+    "dishes": [
+      "Homemade Beancurd"
+    ],
+    "contact": null,
+    "other_info": {
+      "address": "163 Bukit Merah Central #02-19 Bukit Merah Central Food Centre Singapore 150163"
+    }
+  },
+  {
+    "stall_name": "Bukit Merah View Kway Chap",
+    "cuisine_type": "Kway Chap",
+    "review_count": 3,
+    "url": "https://burpple.com/bukit-merah-view-kway-chap",
+    "location": {
+      "lat": 1.3401531,
+      "lng": 103.72018
+    },
+    "reviews": [
+      "bukit merah but jurong west. is not the deep savory, dead heavy salty chup. but all braised perfect...",
+      "Kway Chap In The West",
+      "Kway Chap for breakfast? Yes. 🤔"
+    ],
+    "dishes": [
+      "Kway Chap"
+    ],
+    "contact": "+65 91784195",
+    "other_info": {
+      "facebook": "https://www.facebook.com/bukitmerahviewkwaychap/",
+      "address": "346A Kang Ching Road Singapore 611346"
+    }
+  },
+  {
+    "stall_name": "Chai Chuan Tou Yang Rou Tang (Bukit Merah View Market)",
+    "cuisine_type": "Mutton Soup",
+    "review_count": 7,
+    "url": "https://burpple.com/chai-chuan-tou-yang-rou-tang",
+    "location": {
+      "lat": 1.2854816,
+      "lng": 103.8218978
+    },
+    "reviews": [
+      "Comforting Mutton Soup. $6 bowl of Mixed Mutton soup, filled with (boneless) mutton ribs and stomach...",
+      "Mixed Mutton Soup. There’s only a few stalls here that always had a long queue in front...",
+      "Stomach and soft meat 6nett. The queue is annoying cos its 30mins thereabouts...",
+      "Mutton soup. A good bowl of mutton soup!, $7 for a generous portion.",
+      "Mixed Beef/Mutton Soup ($7). Came here at 11.30am, and there was already a queue of 8 people..."
+    ],
+    "dishes": [
+      "Mixed Mutton soup",
+      "Mutton ribs",
+      "Stomach",
+      "Mixed Beef/Mutton Soup",
+      "Mutton Ribs Soup"
+    ],
+    "contact": "+65 91095631",
+    "other_info": {
+      "address": "115 Bukit Merah View #01-51 Bukit Merah View Market & Hawker Centre Singapore 151115"
+    }
+  },
+  {
+    "stall_name": "786 Char Kway Teow (Bukit Merah View Market)",
+    "cuisine_type": "Char Kway Teow",
+    "review_count": 3,
+    "url": "https://burpple.com/786-char-kway-teow",
+    "location": {
+      "lat": 1.2843276,
+      "lng": 103.8218321
+    },
+    "reviews": [
+      "Halal Char Kway Teow. No pork no lard...",
+      "Halal Char Kway Teow anyone? Although it has no pork no lard, its still quite...",
+      "A Hidden Halal Char Kway Teow in Bukit Merah!"
+    ],
+    "dishes": [
+      "Char Kway Teow"
+    ],
+    "contact": null,
+    "other_info": {
+      "address": "115 Bukit Merah View #01-28 Bukit Merah View Market & Hawker Centre Singapore 151115"
+    }
+  }
+]

@@ -1,0 +1,108 @@
+[
+  {
+    "stall_name": "Hock Thye Noodles (福泰面家)",
+    "cuisine_type": "Hawker/Kopitiam",
+    "review_count": 5,
+    "url": "https://burpple.com/hock-thye-noodles",
+    "lat": 1.314399,
+    "lng": 103.770821,
+    "reviews": [
+      "Coming to Clementi for so many times, I wasn’t aware of the existence of this food centre... Wanton Noodles... spicy and flavorful sauce...",
+      "Old School Wanton Mee... Sauce was spicy and made a great flavourful... spinach green noodles...",
+      "Spinach green noodles for wanton mee, sliced char siew, tasty wanton...",
+      "Some gems found in this forgotten part of clementi... wanton mee...",
+      "Prawn Dumpling Soup @ Hong Thye Noodles 福泰面家, Blk 353 Clementi Avenue 2 Cooked Food Centre #01-61."
+    ],
+    "dishes": [
+      "Wanton Noodles",
+      "Old School Wanton Mee",
+      "Spinach green noodles",
+      "Prawn Dumpling Soup"
+    ],
+    "other_info": {
+      "address": "353 Clementi Avenue 2 #01-61, Singapore 120353",
+      "opening_hours": "06:30am - 05:30pm"
+    }
+  },
+  {
+    "stall_name": "Jalilah's Corner",
+    "cuisine_type": "Malay/Halal",
+    "review_count": 2,
+    "url": "https://burpple.com/clementi-avenue-2-market-food-centre",
+    "lat": 1.3141709,
+    "lng": 103.7707776,
+    "reviews": [
+      "Jalilah Corner always has a steady, long queue during weekend breakfasts. Some of the popular dishes I noticed on the surrounding tables include Mee Siam, Mee Rebus, and Nasi Lemak—though the Nasi Lemak is only available on weekends. The fried chicken was absolutely delicious—super crispy and freshly fried.",
+      "The gravy of the Mee Rebus was thick and very aromatic as you can smell the different types of spicies used. You can tasted the sweetness of the sweet potatoes and spiciness of the lemongrass, ginger and chilli right after the first mouth."
+    ],
+    "dishes": [
+      "Mee Siam",
+      "Mee Rebus",
+      "Nasi Lemak",
+      "fried chicken"
+    ],
+    "other_info": {
+      "stall_number": "#01-69",
+      "notes": "Nasi Lemak only available on weekends."
+    }
+  },
+  {
+    "stall_name": "Gu Zao Wei Braised Duck",
+    "cuisine_type": "Teochew Braised Duck",
+    "review_count": 2,
+    "url": "https://burpple.com/clementi-avenue-2-market-food-centre",
+    "lat": 1.3141709,
+    "lng": 103.7707776,
+    "reviews": [
+      "The braised ducks that were on display looked damn good and I had to try it. The braised duck was tender, and portion was very big for a drumstick. The soup was herbalicious.",
+      "Tried their Braised Duck Rice set for $4.50 and find it reasonable in view of the generous portion of Duck Meat, Tofu, Salted Vege and Egg. A savoury sauce was added to both the ingredients and Yam Rice to intensify the taste."
+    ],
+    "dishes": [
+      "Braised duck",
+      "Braised Duck Rice set",
+      "kway chap",
+      "Yam Rice"
+    ],
+    "other_info": {
+      "stall_number": "#01-73",
+      "price": "Braised Duck Rice set for $4.50"
+    }
+  },
+  {
+    "stall_name": "Aishah Lee Muslim Food Stall",
+    "cuisine_type": "Muslim Food",
+    "review_count": 1,
+    "url": "https://burpple.com/clementi-avenue-2-market-food-centre",
+    "lat": 1.3141709,
+    "lng": 103.7707776,
+    "reviews": [
+      "Tasty plate of Nasi Lemak with signature crispy deep fried chicken wing, sausage and egg omelette only for $3.50 Fluffy rice combining the classic chilli sauce and crispy anchovies. Yummy!"
+    ],
+    "dishes": [
+      "Nasi Lemak",
+      "deep fried chicken wing",
+      "sausage",
+      "egg omelette"
+    ],
+    "other_info": {
+      "price": "Nasi Lemak for $3.50"
+    }
+  },
+  {
+    "stall_name": "Chef Wei HK Cheong Fun",
+    "cuisine_type": "Hong Kong Cheong Fun / Dim Sum",
+    "review_count": 1,
+    "url": "https://burpple.com/clementi-avenue-2-market-food-centre",
+    "lat": 1.3141709,
+    "lng": 103.7707776,
+    "reviews": [
+      "Char Siew Cheong Fun is the classic combination and their best-seller. The silky smooth Cheong Fun is rather thin, springy and melt right in your mouth. You can taste its savoury sweet flavour of their Char Siew as they are seasoned well."
+    ],
+    "dishes": [
+      "Char Siew Cheong Fun"
+    ],
+    "other_info": {
+      "notes": "Char Siew Cheong Fun is their best-seller."
+    }
+  }
+]

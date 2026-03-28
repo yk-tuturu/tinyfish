@@ -1,0 +1,257 @@
+[
+  {
+    "stall_name": "Fresh Fruit Juice (Pasir Panjang Food Centre)",
+    "cuisine_type": "Hawker/Kopitiam, Healthier Choice",
+    "review_count": 3,
+    "burpple_url": "https://burpple.com/fresh-fruit-juice",
+    "google_maps": {
+      "lat": 1.2758325,
+      "lng": 103.7915418
+    },
+    "reviews": [
+      "Banana milkshake reg 3nett Very good banana, this was pretty good. No condensed milk tho FYI unlike...",
+      "Rockmelon milkshake large 4.5nett The rockmelon is not as sweet as the persimmon, this one is sligh...",
+      "Persimmon milkshake 3.5nett small Dear god. Probably the best persimmon used here to produce the sw..."
+    ],
+    "dishes": [
+      "Banana milkshake",
+      "Rockmelon milkshake",
+      "Persimmon milkshake"
+    ],
+    "other_info": {
+      "address": "121 Pasir Panjang Road, Pasir Panjang Food Centre, Singapore 118543"
+    }
+  },
+  {
+    "stall_name": "Al Ehsan (Pasir Panjang Food Centre)",
+    "cuisine_type": "Hawker/Kopitiam, Malay, Cheap & Good",
+    "review_count": 2,
+    "burpple_url": "https://burpple.com/al-ehsan",
+    "google_maps": {
+      "lat": 1.2759677,
+      "lng": 103.7913379
+    },
+    "reviews": [
+      "For Cheap and Good Lontong. Westies, come by Pasir Panjang Food Centre for an affordable solution to...",
+      "Cheap and Good Nasi Padang & Lontong! Al Ehsan’s lontong - Garnished with dried shrimp chilli, the..."
+    ],
+    "dishes": [
+      "Lontong",
+      "Nasi Padang"
+    ],
+    "other_info": {
+      "address": "121 Pasir Panjang Road, #01-01 Pasir Panjang Food Centre, Singapore 118543"
+    }
+  },
+  {
+    "stall_name": "Khao Kha Moo (Pasir Panjang Food Centre)",
+    "cuisine_type": "Thai, Hawker/Kopitiam",
+    "review_count": 1,
+    "burpple_url": "https://burpple.com/khao-kha-moo",
+    "google_maps": {
+      "lat": 1.2760315,
+      "lng": 103.7913766
+    },
+    "reviews": [
+      "Signature pig knuckles 10nett The ala carte portion is not a lot actually, feeds 1 Despite the lig..."
+    ],
+    "dishes": [
+      "Signature pig knuckles"
+    ],
+    "other_info": {
+      "address": "121 Pasir Panjang Road, #01-13 Pasir Panjang Food Centre, Singapore 118543"
+    }
+  },
+  {
+    "stall_name": "The Pastapedia (Pasir Panjang Food Centre)",
+    "cuisine_type": "Pasta, Hawker/Kopitiam, Western",
+    "review_count": 1,
+    "burpple_url": "https://burpple.com/pastapediasg",
+    "google_maps": {
+      "lat": 1.2759677,
+      "lng": 103.7913379
+    },
+    "reviews": [
+      "Pork Cutlet Carbonara (SGD6.50) Chanced upon this hidden gem at Pasir Panjang Food Centre and decided to give it a try. The carbonara was creamy and the pork cutlet was crispy. Definitely worth the price."
+    ],
+    "dishes": [
+      "Pork Cutlet Carbonara"
+    ],
+    "other_info": {
+      "address": "121 Pasir Panjang Road, #01-41 Pasir Panjang Food Centre, Singapore 118543",
+      "facebook": "https://www.facebook.com/ThePastspedia.SG/"
+    }
+  },
+  {
+    "stall_name": "Lucky BBQ Seafood (Pasir Panjang Food Centre)",
+    "cuisine_type": "Seafood, Hawker/Kopitiam",
+    "review_count": 2,
+    "burpple_url": "https://burpple.com/lucky-bbq-seafood",
+    "google_maps": {
+      "lat": 1.276043057441711,
+      "lng": 103.7915496826172
+    },
+    "reviews": [
+      "Superb Sotong. Order the stingray from Alan and the sotong from Lucky! Lucky's sotong is huge in te...",
+      "Boiled Shellfish. Vanessa S. Level 10 Burppler · 3920 Reviews. May 29, 2013 · Family Meals"
+    ],
+    "dishes": [
+      "Sotong",
+      "Boiled Shellfish"
+    ],
+    "other_info": {
+      "address": "121 Pasir Panjang Road, #01-04 Pasir Panjang Food Centre, Singapore 118543",
+      "opening_hours": "05:00pm - 12:30am"
+    }
+  },
+  {
+    "stall_name": "Fatty Ipoh Noodles (Pasir Panjang Food Centre)",
+    "cuisine_type": "Hawker/Kopitiam",
+    "review_count": 9,
+    "burpple_url": "https://burpple.com/fatty-ipoh-noodles",
+    "google_maps": {
+      "lat": 1.2759677,
+      "lng": 103.7913379
+    },
+    "reviews": [
+      "Wet Fried kway teow. Pretty good, the gravy was flavourful, the texture of the kway teow was on the...",
+      "Very good wok hei with excellent flavours. Superb noodles with powerpac flavours with good amount of...",
+      "Yummy Yuan Yang Hor Fun. If you're looking to try some yuan yang horfun aka horfun with crispy horfu...",
+      "Moonlight Hor Fun (SGD5). Luckily chanced upon this hawker stall when I was looking for dinner near...",
+      "Malaysian Zi-Char Style Dishes With Chunky Pork Lard in Pasir Panjang. The Wat Dan Hor with Crispy H..."
+    ],
+    "dishes": [
+      "Wet Fried kway teow",
+      "Yuan Yang Hor Fun",
+      "Moonlight Hor Fun",
+      "Wat Dan Hor with Crispy Hor Fun"
+    ],
+    "other_info": {
+      "address": "121 Pasir Panjang Road, #01-10 Pasir Panjang Food Centre, Singapore 118543",
+      "contact": "+65 90041823",
+      "facebook": "https://www.facebook.com/Fatty-Ipoh-Fried-Noodles-100298712394065"
+    }
+  },
+  {
+    "stall_name": "Alan Banana Leaves BBQ Seafood (Pasir Panjang Food Centre)",
+    "cuisine_type": "Good For Groups, Seafood, Hawker/Kopitiam, BBQ",
+    "review_count": 8,
+    "burpple_url": "https://burpple.com/alan-banana-leaves-bbq-seafood",
+    "google_maps": {
+      "lat": 1.2759802,
+      "lng": 103.7913653
+    },
+    "reviews": [
+      "Super Shiok Stingray. Alan's sambal stingray was way better than the one we had at the Chomp Chomp...",
+      "Sambal Stingray 12nett(S). Really meaty stingray with a wonderful bite. Their sambal is unique...",
+      "Sambal Sotong. Fresh and juicy sotong cooked just nice. Sambal is on the mild side.",
+      "Sambal Stingray. Fresh stingray, sambal is the mild type. Good for friends gathering.",
+      "One of the better ones! Had tried many seafood stalls in Pasir Panjang Food Ctr but...",
+      "Bbq Stingray"
+    ],
+    "dishes": [
+      "Sambal Stingray",
+      "Sambal Sotong",
+      "Bbq Stingray"
+    ],
+    "other_info": {
+      "address": "121 Pasir Panjang Road, #01-23/24 Pasir Panjang Food Centre, Singapore 118543"
+    }
+  },
+  {
+    "stall_name": "Ivy's Hainanese Herbal Mutton Soup (Pasir Panjang Food Centre)",
+    "cuisine_type": "Hawker/Kopitiam, Rainy Day Comforts, Soup",
+    "review_count": 14,
+    "burpple_url": "https://burpple.com/ivys-hainanese-herbal-mutton-soup-1",
+    "google_maps": {
+      "lat": 1.2758432,
+      "lng": 103.7915003
+    },
+    "reviews": [
+      "Mutton Soup And Sup Kambing (SGD $17) @ Ivy's Hainanese Herbal Mutton Soup. Established sometime in...",
+      "Mutton Soup ($12) The intensity of this soup was mindblowingly good 🤯🤯 The depth in flavour was t...",
+      "Mutton Meat Soup 12nett Chock full of ingredients, so I don't think it's worth adding meat cos it's...",
+      "Best Mutton Soup! I tried the Herbal Mutton Soup with Mee Sua and an egg $11. The broth quality was...",
+      "Herbal Mutton Soup $10 The soup was super tasty, with tender, fatty pieces of meat. Came with piece..."
+    ],
+    "dishes": [
+      "Mutton Soup And Sup Kambing",
+      "Mutton Meat Soup",
+      "Herbal Mutton Soup with Mee Sua"
+    ],
+    "other_info": {
+      "address": "121 Pasir Panjang Road, #01-14 Pasir Panjang Food Centre, Singapore 118543",
+      "contact": "+65 98188219",
+      "facebook": "https://www.facebook.com/ivysmuttonsoup/"
+    }
+  },
+  {
+    "stall_name": "Bua Siam Thai Seafood (Pasir Panjang Food Centre)",
+    "cuisine_type": "Seafood, Thai, Hawker/Kopitiam",
+    "review_count": 4,
+    "burpple_url": "https://burpple.com/bua-siam",
+    "google_maps": {
+      "lat": 1.2759548,
+      "lng": 103.7913414
+    },
+    "reviews": [
+      "Pad Thai. Very crowded food centre as it always attract the people who working around here, even for...",
+      "Tomyum Goong 8nett. Though the aromatics are strong and there's a decent bit of heat, the soup was s...",
+      "Tom Yum ($8). A must-order at Thai restaurants, I found the tom yum here addictive even though it wa...",
+      "Basil Pork Rice"
+    ],
+    "dishes": [
+      "Pad Thai",
+      "Tomyum Goong",
+      "Tom Yum",
+      "Basil Pork Rice"
+    ],
+    "other_info": {
+      "address": "121 Pasir Panjang Road, #01-36 Pasir Panjang Food Centre, Singapore 118543",
+      "contact": "+65 91379486",
+      "facebook": "https://www.facebook.com/buasiamthaiseafood"
+    }
+  },
+  {
+    "stall_name": "216 Choa Chu Kang BBQ Chicken Wing (Pasir Panjang Food Centre)",
+    "cuisine_type": "Hawker/Kopitiam",
+    "review_count": 2,
+    "burpple_url": "https://burpple.com/216-choa-chu-kang-bbq-chicken-wing",
+    "google_maps": {
+      "lat": 1.2759677,
+      "lng": 103.7913379
+    },
+    "reviews": [
+      "1.5nett per piece, min 3 pieces. It really is good. Slightly crispy, but very well marinated and it's super juicy too.",
+      "Awesome BBQ Wings! I have been popping by the Alexandra area for gym after work recently and took the opportunity to explore Pasir Panjang Food Centre."
+    ],
+    "dishes": [
+      "BBQ Chicken Wing"
+    ],
+    "other_info": {
+      "address": "121 Pasir Panjang Road, #01-23 Pasir Panjang Food Centre, Singapore 118543"
+    }
+  },
+  {
+    "stall_name": "Yusoff Haji Jalal Satay (Pasir Panjang Food Centre)",
+    "cuisine_type": "Hawker/Kopitiam, Malay",
+    "review_count": 2,
+    "burpple_url": "https://burpple.com/yusoff-haji-jalal-satay",
+    "google_maps": {
+      "lat": 1.2759802,
+      "lng": 103.79137
+    },
+    "reviews": [
+      "3 of each, 0.8nett per skewer, min 10 skewers. Put your name down as soon as they open, they are very popular...",
+      "Old School Satay Stall. This old-school satay stall hails from the famous satay club at the Esplanade..."
+    ],
+    "dishes": [
+      "Satay",
+      "Skewer"
+    ],
+    "other_info": {
+      "address": "121 Pasir Panjang Road, #01-21 Pasir Panjang Food Centre, Singapore 118543",
+      "contact": "+65 90058223"
+    }
+  }
+]

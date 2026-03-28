@@ -1,0 +1,96 @@
+[
+  {
+    "stall_name": "Riverside Good Food (Zion Riverside Food Centre)",
+    "cuisine_type": "Hawker/Kopitiam",
+    "review_count": 1,
+    "url": "https://burpple.com/riverside-good-food",
+    "latitude": 1.2924203,
+    "longitude": 103.8311418,
+    "reviews": [
+      "Lard after lard, and spoonful of sweet chilli, this plate of Hokkien Mee at $4 is definitely a steal! Wet and gooey, the seafood broth is really fragrant. The prawn is surprisingly fresh, given its size and price. Note that there's always a long queue during lunch and dinner hours. Go early or go late!"
+    ],
+    "dishes": [
+      "Hokkien Mee"
+    ],
+    "contact_info": "70 Zion Road, #01-20 Zion Riverside Food Centre, Singapore 247792",
+    "other_links": {
+      "google_maps": "https://www.google.com/maps/search/?api=1&query=1.2924203,103.8311418"
+    }
+  },
+  {
+    "stall_name": "No:18 Zion Road Fried Kway Teow (Zion Riverside Food Centre)",
+    "cuisine_type": "Char Kway Teow, Hawker/Kopitiam",
+    "review_count": 41,
+    "url": "https://burpple.com/no18-zion-road-fried-kway-teow",
+    "latitude": 1.2926232,
+    "longitude": 103.83125,
+    "reviews": [
+      "What u came to Zion Riverside 4. A popular store here at ZRFC. Be prepared to wait at least 30-45 mins. CKT here is wet version, very sweet. Worth the calories.",
+      "Char Kway Teow. A sinful messy plate of greasy black gooey noodles with a few measly cockles and some sliced lup cheong (Chinese sausage) but it's oh so good.",
+      "Char Kway Teow. There is wok hey and the portion is rather decent. This is the wet version which I normally like, but unfortunately, I found it to be too sweet.",
+      "CKT @ Zion Road. Though the smallest portion out of the menu, it didn't fail to satisfy. The noodles were fried with just the right amount of lard and 'wok-hei'.",
+      "Char Kway Teow (SGD $5) @ No. 18 Zion Road Fried Kway Teow. Hawker Ho Kian Tat serves a messy-looking but delicious version. The kway teow and yellow wheat noodles are soft and moist, with a smoky aroma.",
+      "Char Kway Teow ($6 for medium). Full of flavor wok hei goodness. This version is more on the sweet and wet side. Topped with generous amount of ingredients."
+    ],
+    "dishes": [
+      "Char Kway Teow",
+      "CKT"
+    ],
+    "contact_info": "70 Zion Road, #01-17 Zion Riverside Food Centre, Singapore 247792",
+    "other_links": {
+      "google_maps": "https://www.google.com/maps/search/?api=1&query=1.2926232,103.83125"
+    }
+  },
+  {
+    "stall_name": "Boon Tong Kee Kway Chap Braised Duck (Zion Riverside Food Centre)",
+    "cuisine_type": "Hawker/Kopitiam, Chinese",
+    "review_count": 30,
+    "url": "https://burpple.com/bon-tong-ke-kway-chap-braised-duck",
+    "latitude": 1.29234,
+    "longitude": 103.831188,
+    "reviews": [
+      "Gave this a go after spotting a surprisingly long queue. The kway was smooth and silky, soaked in a light herbal broth. The platter of braised items was generous.",
+      "Since March 2016, Madam Yang's rendition of this traditional Teochew dish has been a standout. The duck is tender and well-infused with the braising liquid.",
+      "Boon Tong Kee is 1 of my favourite kway chap store. The sauce is flavorful without being overly salty. The ingredients are always cleaned thoroughly.",
+      "Michelin bib and for good reason, they're special. The rice sheets (kway) are delicate and the herbal soup is not overwhelming.",
+      "Featured in the Michelin Guide, BTK’s Kway Chao Braised Duck features a rich, dark gravy. The pig trotters and duck are particularly well-marinated."
+    ],
+    "dishes": [
+      "Kway Chap",
+      "Braised Duck Rice Set Meal",
+      "Braised meats",
+      "Pig trotters"
+    ],
+    "contact_info": "70 Zion Road, #01-24 Zion Riverside Food Centre, Singapore 247792. Phone: +65 91849881",
+    "other_links": {
+      "google_maps": "https://www.google.com/maps/search/?api=1&query=1.29234,103.831188",
+      "facebook": "https://www.facebook.com/singaporekwaychap/"
+    }
+  },
+  {
+    "stall_name": "Zion Road Big Prawn Noodle (Zion Riverside Food Centre)",
+    "cuisine_type": "Prawn Mee, Seafood, Hawker/Kopitiam",
+    "review_count": 35,
+    "url": "https://burpple.com/noo-cheng-adam-road-big-prawn-noodles",
+    "latitude": 1.2924504,
+    "longitude": 103.831136,
+    "reviews": [
+      "Prawn Noodle. Fresh and huge prawns in a flavourful broth packed with umami goodness. The soup is peppery and rich, definitely one of the best in Singapore.",
+      "13nett portion. U can only choose the price. We were lucky cos there's no normal 13nett prawns left so they gave us the huge ones. The broth is spectacular.",
+      "8nett. Gets you the most normal prawns, but still of reasonable size. The soup is consistent - thick and dark.",
+      "Prawn Noodles Dry ($13 portion). Seeing those huge Prawns displayed at the front makes it impossible to resist. The dry version comes with a bowl of that signature soup.",
+      "Prawn Mee | $8. I’ve had my fair share of prawn noodles from this particular stall. The quality is always top-notch, especially the broth which is boiled for hours.",
+      "Huge prawns, rich peppery broth, what more could you ask for? The queue is long but moves fast."
+    ],
+    "dishes": [
+      "Prawn Noodle",
+      "Prawn Noodles Dry",
+      "Big Prawn Noodle"
+    ],
+    "contact_info": "70 Zion Road, #01-04 Zion Riverside Food Centre, Singapore 247792",
+    "other_links": {
+      "google_maps": "https://www.google.com/maps/search/?api=1&query=1.2924504,103.831136",
+      "facebook": "https://www.facebook.com/zionroadbigprawnnoodle"
+    }
+  }
+]
