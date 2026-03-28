@@ -695,6 +695,26 @@
   color: var(--text-muted);
 }
 
+.review-item-positive {
+  background-color: rgba(34, 197, 94, 0.12);
+  border-left-color: #22c55e;
+}
+
+.review-item-mixed {
+  background-color: rgba(250, 204, 21, 0.12);
+  border-left-color: #eab308;
+}
+
+.review-item-negative {
+  background-color: rgba(239, 68, 68, 0.12);
+  border-left-color: #ef4444;
+}
+
+.review-item-unknown {
+  background-color: rgba(59, 130, 246, 0.12);
+  border-left-color: #3b82f6;
+}
+
 .review-source {
   color: var(--text-white);
   font-weight: 700;

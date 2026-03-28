@@ -36,6 +36,60 @@ function toDisplayConfidence(value) {
   return "Low";
 }
 
+function normalizeReviews(item) {
+  if (Array.isArray(item.topReviews)) {
+    return item.topReviews
+      .map((review) => {
+        if (typeof review === "string") {
+          return { source: "Review", text: review, sentiment: "mixed" };
+        }
+
+        const text =
+          typeof review?.text === "string"
+            ? review.text
+            : typeof review?.review === "string"
+              ? review.review
+              : "";
+
+        if (!text.trim()) return null;
+
+        return {
+          source: review?.source || "Review",
+          text,
+          sentiment: review?.sentiment || "mixed",
+        };
+      })
+      .filter(Boolean);
+  }
+
+  if (Array.isArray(item.reviews)) {
+    return item.reviews
+      .map((review) => {
+        if (typeof review === "string") {
+          return { source: "Review", text: review, sentiment: "mixed" };
+        }
+
+        const text =
+          typeof review?.text === "string"
+            ? review.text
+            : typeof review?.review === "string"
+              ? review.review
+              : "";
+
+        if (!text.trim()) return null;
+
+        return {
+          source: review?.source || "Review",
+          text,
+          sentiment: review?.sentiment || "mixed",
+        };
+      })
+      .filter(Boolean);
+  }
+
+  return [];
+}
+
 function normalizeRecommendation(item, fallbackId) {
   return {
     id: item.id ?? fallbackId,
@@ -59,15 +113,7 @@ function normalizeRecommendation(item, fallbackId) {
     lng: typeof item.lng === "number" ? item.lng : null,
     mapUrl: item.sourceUrl || item.mapUrl || null,
     recentBuzz: item.recentBuzz || null,
-    reviews: Array.isArray(item.topReviews)
-      ? item.topReviews.map((review) => ({
-          source: review.source || "Unknown",
-          text: review.text || "",
-          sentiment: review.sentiment || "mixed",
-        }))
-      : Array.isArray(item.reviews)
-        ? item.reviews
-        : [],
+    reviews: normalizeReviews(item),
     dietaryCriteria: Array.isArray(item.dietaryCriteria) && item.dietaryCriteria.length > 0
       ? item.dietaryCriteria
       : ["Unknown"],
@@ -83,12 +129,18 @@ async function fetchRecommendations({ query, budget, mode, dietary, selectedLoca
     body: JSON.stringify({ query, budget, mode, dietary, selectedLocation }),
   });
 
+  const rawResponseText = await response.text();
+  console.log("[raw /api/recommend response]", rawResponseText);
+
   if (!response.ok) {
-    const errorText = await response.text();
-    throw new Error(errorText || `Request failed with status ${response.status}`);
+    throw new Error(rawResponseText || `Request failed with status ${response.status}`);
   }
 
-  return response.json();
+  try {
+    return JSON.parse(rawResponseText);
+  } catch {
+    throw new Error("API returned non-JSON response");
+  }
 }
 
 function App() {

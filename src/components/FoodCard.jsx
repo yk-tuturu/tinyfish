@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react";
+import { useMemo, useState, useEffect } from "react";
 
 export default function FoodCard({ food, rank }) {
   const [showReviews, setShowReviews] = useState(false);
@@ -11,41 +11,55 @@ export default function FoodCard({ food, rank }) {
       ? food.dietaryCriteria
       : ["Unknown"];
   const reviews = useMemo(() => {
+    const normalizeSentiment = (value) => {
+      const normalized = String(value || "unknown").toLowerCase();
+      if (normalized === "critical") {
+        return "negative";
+      }
+      if (
+        normalized === "positive" ||
+        normalized === "negative" ||
+        normalized === "mixed" ||
+        normalized === "unknown"
+      ) {
+        return normalized;
+      }
+      return "unknown";
+    };
+
     const existingReviews = Array.isArray(food.reviews)
       ? food.reviews.filter(
           (review) => review?.source && typeof review?.text === "string" && review.text.trim()
-        )
+        ).map((review) => ({
+          ...review,
+          sentiment: normalizeSentiment(review?.sentiment),
+        }))
       : [];
 
-    const synthesizedReviews = [
+    const synthesizedReviewPool = [
       {
         source: "Google Maps",
-        text: `${food.name} is frequently praised for consistency and satisfying portions.`,
+        text: `${food.name} is commonly mentioned for consistent quality and reliable portions.`,
+        sentiment: "unknown",
       },
       {
         source: "Reddit",
-        text: `${food.cuisine} quality is often called out as a strong point for this area.`,
+        text: `People looking for ${food.cuisine} around ${food.location} often bring up this stall as a dependable pick.`,
+        sentiment: "unknown",
       },
       {
-        source: "Burpple",
-        text: `Good value for money, especially when returning with friends.`,
-      },
-      {
-        source: "Food Blog",
-        text: `Flavours are balanced and the menu works well for repeat visits.`,
-      },
-      {
-        source: "Instagram",
-        text: `A popular stop around ${food.location} for casual meals.`,
-      },
-      {
-        source: "TripAdvisor",
-        text: `Reliable option with generally positive feedback and steady standards.`,
+        source: "Local Buzz",
+        text: `A practical choice in ${food.location} when you want something familiar and repeatable.`,
+        sentiment: "unknown",
       },
     ];
 
+    // Keep synthetic content minimal: append only enough to reach at most 3 baseline reviews.
+    const neededSynthCount = Math.max(0, 3 - existingReviews.length);
+    const synthesizedReviews = synthesizedReviewPool.slice(0, neededSynthCount);
+
     const recentBuzzReview = food.recentBuzz
-      ? [{ source: "Recent Buzz", text: String(food.recentBuzz).replace(/^"|"$/g, "") }]
+      ? [{ source: "Recent Buzz", text: String(food.recentBuzz).replace(/^"|"$/g, ""), sentiment: "mixed" }]
       : [];
 
     const combined = [...existingReviews, ...recentBuzzReview, ...synthesizedReviews];
@@ -60,9 +74,11 @@ export default function FoodCard({ food, rank }) {
       }
     }
 
-    return uniqueReviews.slice(0, 10);
+    return uniqueReviews.slice(0, 8);
   }, [food.cuisine, food.location, food.name, food.recentBuzz, food.reviews]);
-
+    useEffect(() => {
+      console.log(food)
+    }, [food])
   const reviewEndIndex = Math.min(
     reviewStartIndex + REVIEWS_PER_PAGE,
     reviews.length
@@ -102,7 +118,10 @@ export default function FoodCard({ food, rank }) {
 
           <div className="reviews-list">
             {visibleReviews.map((review, idx) => (
-              <div key={`${food.id}-review-${reviewStartIndex + idx}`} className="review-item">
+              <div
+                key={`${food.id}-review-${reviewStartIndex + idx}`}
+                className={`review-item review-item-${review.sentiment || "unknown"}`}
+              >
                 <div className="review-source">{review.source}</div>
                 <em>"{review.text}"</em>
               </div>

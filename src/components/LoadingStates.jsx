@@ -1,5 +1,5 @@
 const loadingStages = [
-  { icon: "�‍🍳", text: "Uncle is thinking lah..." },
+  { icon: "�‍🍳", text: "Uncle is thinking ah..." },
   { icon: "🕷️", text: "Uncle's web crawlers searching..." },
   { icon: "🧠", text: "Uncle's AI brain ranking..." },
 ];
