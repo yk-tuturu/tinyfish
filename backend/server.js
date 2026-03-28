@@ -12,6 +12,7 @@ app.use(express.json());
 
 // Cache to store results
 const cache = {};
+const cacheEnabled = process.env.ENABLE_API_CACHE === '1';
 
 // Pre-load all food data on startup
 let allFoodData = [];
@@ -27,24 +28,41 @@ app.get('/api/health', (req, res) => {
 });
 
 app.post('/api/recommend', async (req, res) => {
-  const { query, budget = 'any', mode = 'recommend' } = req.body;
+  const {
+    query,
+    budget = 'any',
+    mode = 'recommend',
+    selectedLocation = null,
+    dietary = [],
+  } = req.body;
 
   try {
-    const cacheKey = `${query}-${budget}-${mode}`;
-    if (cache[cacheKey]) {
+    const locationKey = selectedLocation
+      ? `${selectedLocation.lat ?? 'na'}-${selectedLocation.lng ?? 'na'}`
+      : 'no-location';
+    const dietaryKey = Array.isArray(dietary) ? dietary.slice().sort().join('|') : 'no-dietary';
+    const cacheKey = `${query}-${budget}-${mode}-${locationKey}-${dietaryKey}`;
+    if (cacheEnabled && cache[cacheKey]) {
       return res.json({ ...cache[cacheKey], cached: true });
     }
 
-    const result = await getRecommendations(query, budget, mode, allFoodData);
+    const result = await getRecommendations(query, budget, mode, allFoodData, {
+      selectedLocation,
+      dietary,
+    });
 
-    cache[cacheKey] = {
+    const responsePayload = {
       ...result,
       sourcesChecked: 3,
       totalDataPoints: allFoodData.length,
       searchTime: "3.2s"
     };
 
-    res.json(cache[cacheKey]);
+    if (cacheEnabled) {
+      cache[cacheKey] = responsePayload;
+    }
+
+    res.json(responsePayload);
   } catch (error) {
     console.error('Error:', error.message);
     res.status(500).json({ error: 'Failed to get recommendations', message: error.message });

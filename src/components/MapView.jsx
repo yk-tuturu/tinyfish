@@ -30,7 +30,11 @@ function MapViewportUpdater({ results, searchedLocation }) {
   const map = useMap();
 
   useEffect(() => {
-    if (!results || results.length === 0) {
+    const validResults = (results || []).filter(
+      (item) => typeof item.lat === "number" && typeof item.lng === "number"
+    );
+
+    if (validResults.length === 0) {
       return;
     }
 
@@ -41,7 +45,7 @@ function MapViewportUpdater({ results, searchedLocation }) {
     window.requestAnimationFrame(refreshMapSize);
     const timeoutId = setTimeout(refreshMapSize, 80);
 
-    const points = results.map((item) => [item.lat, item.lng]);
+    const points = validResults.map((item) => [item.lat, item.lng]);
     if (
       searchedLocation &&
       typeof searchedLocation.lat === "number" &&
@@ -64,7 +68,11 @@ function MapViewportUpdater({ results, searchedLocation }) {
 }
 
 export default function MapView({ results, selectedId, onSelectResult, searchedLocation }) {
-  if (!results || results.length === 0) {
+  const validResults = (results || []).filter(
+    (item) => typeof item.lat === "number" && typeof item.lng === "number"
+  );
+
+  if (!results || results.length === 0 || validResults.length === 0) {
     return (
       <div className="map-container empty">
         <p>No locations to display</p>
@@ -73,7 +81,7 @@ export default function MapView({ results, selectedId, onSelectResult, searchedL
   }
 
   // Center on first result
-  const center = [results[0].lat, results[0].lng];
+  const center = [validResults[0].lat, validResults[0].lng];
 
   return (
     <div className="map-container">
@@ -83,7 +91,7 @@ export default function MapView({ results, selectedId, onSelectResult, searchedL
         className="leaflet-map"
         style={{ width: "100%", height: "100%" }}
       >
-        <MapViewportUpdater results={results} searchedLocation={searchedLocation} />
+        <MapViewportUpdater results={validResults} searchedLocation={searchedLocation} />
         <TileLayer
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
@@ -112,7 +120,7 @@ export default function MapView({ results, selectedId, onSelectResult, searchedL
             </Marker>
           )}
 
-        {results.map((result, idx) => (
+        {validResults.map((result, idx) => (
           <Marker
             key={result.id}
             position={[result.lat, result.lng]}
