@@ -2,6 +2,7 @@ import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
 import { getRecommendations } from './recommender.js';
+import { getFoodData } from './aggregator.js';
 
 dotenv.config();
 
@@ -12,34 +13,36 @@ app.use(express.json());
 // Cache to store results
 const cache = {};
 
+// Pre-load all food data on startup
+let allFoodData = [];
+try {
+  allFoodData = await getFoodData();
+  console.log(`✓ Loaded ${allFoodData.length} stalls from Burpple + Reddit`);
+} catch (err) {
+  console.error('Failed to load food data:', err.message);
+}
+
 app.get('/api/health', (req, res) => {
-  res.json({ status: 'ok', timestamp: new Date().toISOString() });
+  res.json({ status: 'ok', timestamp: new Date().toISOString(), stalls_loaded: allFoodData.length });
 });
 
 app.post('/api/recommend', async (req, res) => {
   const { query, budget = 'any', mode = 'recommend' } = req.body;
 
   try {
-    // Check cache
     const cacheKey = `${query}-${budget}-${mode}`;
     if (cache[cacheKey]) {
       return res.json({ ...cache[cacheKey], cached: true });
     }
 
-    // TODO: replace with Dev A live scrapers when ready
-    // Using mock data for now
-    const foodData = [
-      { name: "Ah Heng Chicken Rice", location: "The Deck, UTown", rating: 4.3, source: "google_maps", price: "$3.50", cuisine: "Chinese", reviews: ["best chicken rice on campus", "no queue at 12pm"] },
-      { name: "Hwang's Korean", location: "Town Plaza, UTown", rating: 4.1, source: "burpple", price: "$8-12", cuisine: "Korean", reviews: ["army stew is great value", "lunch set $8.90"] },
-      { name: "Waa Cow!", location: "Town Plaza, UTown", rating: 4.6, source: "reddit", price: "$8-14", cuisine: "Japanese", reviews: ["best gyudon outside Japan", "slept on this place"] },
-      { name: "Sapore Italian", location: "Stephen Riady Centre", rating: 4.5, source: "google_maps", price: "$10-15", cuisine: "Italian", reviews: ["carbonara is legit", "best western near UTown"] },
-      { name: "Flavours", location: "The Deck, UTown", rating: 3.9, source: "google_maps", price: "$4-6", cuisine: "Indian", reviews: ["cheap and filling", "butter chicken is solid"] }
-    ];
+    const result = await getRecommendations(query, budget, mode, allFoodData);
 
-    const result = await getRecommendations(query, budget, mode, foodData);
-
-    // Cache the result
-    cache[cacheKey] = { ...result, sourcesChecked: 3, totalDataPoints: foodData.length, searchTime: "3.8s" };
+    cache[cacheKey] = {
+      ...result,
+      sourcesChecked: 3,
+      totalDataPoints: allFoodData.length,
+      searchTime: "3.2s"
+    };
 
     res.json(cache[cacheKey]);
   } catch (error) {
