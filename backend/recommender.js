@@ -74,6 +74,130 @@ function confidenceToScore(confidence) {
   return 0.35;
 }
 
+function shuffleArray(values) {
+  const arr = [...values];
+  for (let i = arr.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
+}
+
+function toReviewObject(entry, fallbackSource = 'Review') {
+  if (typeof entry === 'string') {
+    return {
+      source: fallbackSource,
+      sentiment: 'mixed',
+      text: entry,
+    };
+  }
+
+  const text =
+    typeof entry?.text === 'string'
+      ? entry.text
+      : typeof entry?.review === 'string'
+        ? entry.review
+        : '';
+
+  if (!text.trim()) return null;
+
+  return {
+    source: entry?.source || fallbackSource,
+    sentiment: entry?.sentiment || 'mixed',
+    text,
+  };
+}
+
+function pickTopReviewsWithRandomness(item) {
+  const fallbackSource = item.locationSource || 'Review';
+  const reviewPool = (Array.isArray(item.reviews) ? item.reviews : [])
+    .map((entry) => toReviewObject(entry, fallbackSource))
+    .filter(Boolean);
+
+  if (reviewPool.length === 0) return [];
+
+  const targetCount = 5 + Math.floor(Math.random() * 3); // 5-7
+  return shuffleArray(reviewPool).slice(0, Math.min(targetCount, reviewPool.length));
+}
+
+function dedupeReviews(reviews) {
+  const unique = [];
+  const seen = new Set();
+
+  for (const review of reviews) {
+    const key = `${review.source}::${review.text}`;
+    if (seen.has(key)) continue;
+    seen.add(key);
+    unique.push(review);
+  }
+
+  return unique;
+}
+
+function findBestSourceItemForRecommendation(recommendation, foodData) {
+  const allItems = Array.isArray(foodData) ? foodData : [];
+  const recName = normalizeText(recommendation?.name);
+  const recLocation = normalizeText(recommendation?.location);
+
+  if (!recName) return null;
+
+  const exact = allItems.find((item) => normalizeText(item?.name) === recName);
+  if (exact) return exact;
+
+  const contains = allItems.find((item) => {
+    const itemName = normalizeText(item?.name);
+    return itemName.includes(recName) || recName.includes(itemName);
+  });
+  if (contains) return contains;
+
+  if (!recLocation) return null;
+
+  return allItems.find((item) => normalizeText(item?.location) === recLocation) || null;
+}
+
+function enforceTopReviewRange(apiPayload, foodData, minReviews = 5, maxReviews = 7) {
+  if (!apiPayload || !Array.isArray(apiPayload.recommendations)) {
+    return apiPayload;
+  }
+
+  const updatedRecommendations = apiPayload.recommendations.map((recommendation) => {
+    const initialTopReviews = (Array.isArray(recommendation?.topReviews) ? recommendation.topReviews : [])
+      .map((entry) => toReviewObject(entry, recommendation?.source || 'Review'))
+      .filter(Boolean);
+
+    let normalizedTopReviews = dedupeReviews(initialTopReviews);
+
+    if (normalizedTopReviews.length < minReviews) {
+      const sourceItem = findBestSourceItemForRecommendation(recommendation, foodData);
+      const sourcePool = sourceItem && Array.isArray(sourceItem.reviews)
+        ? shuffleArray(sourceItem.reviews)
+            .map((entry) => toReviewObject(entry, sourceItem.locationSource || recommendation?.source || 'Review'))
+            .filter(Boolean)
+        : [];
+
+      for (const candidate of sourcePool) {
+        if (normalizedTopReviews.length >= minReviews) break;
+        normalizedTopReviews.push(candidate);
+        normalizedTopReviews = dedupeReviews(normalizedTopReviews);
+      }
+    }
+
+    if (normalizedTopReviews.length > maxReviews) {
+      normalizedTopReviews = normalizedTopReviews.slice(0, maxReviews);
+    }
+
+    return {
+      ...recommendation,
+      topReviews: normalizedTopReviews,
+    };
+  });
+
+  return {
+    ...apiPayload,
+    recommendations: updatedRecommendations,
+  };
+}
+
 function toApiRecommendation(item) {
   return {
     name: item.name,
@@ -89,7 +213,7 @@ function toApiRecommendation(item) {
     confidence: String(item.confidence || 'Low').toLowerCase(),
     why: item.whyPicked || item.summary || 'Recommended based on available written reviews.',
     summary: item.summary || 'General sentiment is mixed based on available reviews.',
-    topReviews: Array.isArray(item.reviews) ? item.reviews.slice(0, 6) : [],
+    topReviews: pickTopReviewsWithRandomness(item),
     recentBuzz: item.recentBuzz || null,
     sourceUrl: item.mapUrl || null,
     dietaryCriteria: item.dietaryCriteria || ['Unknown'],
@@ -277,9 +401,11 @@ Your job:
 2. Prioritize entries with stronger written-review evidence and cross-source agreement
 3. Use ratingText exactly as provided (e.g. "4.2 stars by 105 reviews")
 4. Use confidence based on written review resources (do not invent confidence logic)
-4. Consider budget: "cheap" = under $8, "medium" = $8-15, "any" = no filter
+5. Consider budget: "cheap" = under $8, "medium" = $8-15, "any" = no filter
 5. For review snippets, keep a MIXTURE: include positive and at least one critical/mixed point when available
-6. Summary should be short and general (1 sentence)
+6. For EACH recommendation, topReviews MUST contain 5 to 7 items whenever review data exists
+7. If there are many review options, add slight variety and avoid repeating the exact same snippets every time
+8. Summary should be short and general (1 sentence)
 
 Return JSON with this exact structure:
 {
@@ -330,7 +456,8 @@ ${JSON.stringify(foodData, null, 2)}`
       ]
     });
 
-    return JSON.parse(response.choices[0].message.content);
+    const parsed = JSON.parse(response.choices[0].message.content);
+    return enforceTopReviewRange(parsed, foodData, 5, 7);
   } catch (error) {
     console.error('OpenAI request failed, falling back to deterministic recommender:', error.message);
     return deterministicRecommendations(query, budget, mode, foodData, options);

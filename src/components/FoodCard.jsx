@@ -74,7 +74,7 @@ export default function FoodCard({ food, rank }) {
       }
     }
 
-    return uniqueReviews.slice(0, 8);
+    return uniqueReviews;
   }, [food.cuisine, food.location, food.name, food.recentBuzz, food.reviews]);
     useEffect(() => {
       console.log(food)
